@@ -1,7 +1,7 @@
 // Load env 
 require('dotenv').config()
 
-const { INFURA_ID, INFURA_SECRET } = process.env
+const { INFURA_ID } = process.env
 console.log(INFURA_ID)
 // Infura API Endpoints for 3 networks
 export default {
